@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/heartnetkung/hnk-sudoku-solver/issues"
   },
-  "homepage": "https://github.com/heartnetkung/hnk-sudoku-solver#readme",
-  "dependencies": {
-    "javascript-lp-solver": "^0.4.3"
-  }
+  "homepage": "https://github.com/heartnetkung/hnk-sudoku-solver#readme"
 }
