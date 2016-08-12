@@ -1,0 +1,22 @@
+{
+  "name": "hnk-sudoku-solver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heartnetkung/hnk-sudoku-solver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heartnetkung/hnk-sudoku-solver/issues"
+  },
+  "homepage": "https://github.com/heartnetkung/hnk-sudoku-solver#readme",
+  "dependencies": {
+    "javascript-lp-solver": "^0.4.3"
+  }
+}
