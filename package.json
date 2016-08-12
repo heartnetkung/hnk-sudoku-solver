@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/jasmine-node/lib/jasmine-node/cli.js .",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/heartnetkung/hnk-sudoku-solver/issues"
   },
-  "homepage": "https://github.com/heartnetkung/hnk-sudoku-solver#readme"
+  "homepage": "https://github.com/heartnetkung/hnk-sudoku-solver#readme",
+  "dependencies": {
+    "lodash": "^4.14.2"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
 }
