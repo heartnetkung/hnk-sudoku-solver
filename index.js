@@ -52,6 +52,22 @@ exports.solve = function(board, ascend) {
 };
 
 
+exports.solveOneStep = function(board, ascend, ms, callback) {
+	var initialBoard = _.cloneDeep(board);
+	var correct;
+	var id = setInterval(function() {
+		var correct = verify(board);
+		if (correct && isBoardFull(board))
+			clearInterval(id);
+		if (correct)
+			advance(board, ascend);
+		else
+			nextRoute(board, initialBoard, ascend);
+		if (callback) callback();
+	}, ms);
+};
+
+
 exports.doubleSolve = function(board) {
 	var result = exports.solve(_.cloneDeep(board), true);
 	var result2 = exports.solve(_.cloneDeep(board), false);

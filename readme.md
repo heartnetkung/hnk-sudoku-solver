@@ -1,6 +1,7 @@
 ## Scripts
 1. `npm test` 
 2. edit input.txt and `npm start`
+3. edit input.txt and `node animation`
 
 ## API
 ```js
